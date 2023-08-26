@@ -1,0 +1,181 @@
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main {
+    background-color: #15202b;
+    width: 450px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.head {
+    background-color: #339950;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    padding-top: 40px;
+
+}
+.head h1 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+}
+.left_icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.head .left_icons div {
+    width: 36px;
+    height: 36px;
+    background-color: #18ffa3;
+    margin-right: 10px;
+}
+
+
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #339950;
+
+}
+nav div {
+    width: 80%;
+    height: 100%;
+    background-color: #39b5f8;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffffd3;
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 20px;
+   background-color: transparent;
+    font-weight: 500;
+
+
+
+}
+nav a:active {
+    border-bottom: 6px solid white;
+    color: white;
+    position: relative;
+}
+
+nav a:hover {
+    background-color: red;
+}
+
+
+
+/* a {
+    position: relative;
+    background-color: ;
+    
+} */
+
+/* a:hover::after {
+    content: " ";
+    position: absolute;
+    background-color: rgb(223, 215, 231);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    animation: activeEffect 0.5s 1 alternate;
+
+    border-bottom: 6px solid white;
+    color: white;
+} */
+
+/* 
+nav a:active::after {
+    content: " ";
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    animation: activeEffect 0.5s 1 alternate;
+} */
+
+/* @keyframes activeEffect {
+    50% {
+        width: 1%;
+    height: 1%;
+
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+    
+} */
+
+
+
+
+
+
+/* 
+nav a:nth-of-type(1) {
+    background-color: red;
+}
+nav a:nth-of-type(2) {
+    background-color: #1fe169;
+}
+
+nav a:nth-of-type(3) {
+    background-color: #e70df3;
+} */
+
+
+
+@media only screen and (max-width: 1440px) 
+{
+
+    .div1 {
+        flex-basis: 100%;
+    }
+    .div2 {
+        flex-basis: 100%;
+    }
+    .div3,.div4 {
+        flex-basis: 50%;
+    }
+    
+}
+
+

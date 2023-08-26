@@ -1,0 +1,42 @@
+// JavaScript OUTPUT Section  ------------------------------------ OUTPUT
+
+// document.getElementById("demo").innerHTML = "Hello World! its Done By innerHTML";
+// document.write("Hello World! Its done by Documents.write()")
+// console.log("Hello World, Check Console for Result")
+// alert("This is alert, That You are using alert in JavaScript!")
+// Window.print()
+
+
+// JavaScript STATMENT Section  ------------------------------------ STATMENT
+
+// let a, b, c;  // Declare 3 variables
+// a = "Fayaz";        // Assign the value Fayaz to a
+// b = "Jamali";        // Assign the value Jamali to b
+// c = a + " " + b;    // Assign the sum of a and b to c
+
+// document.getElementById("demo").innerHTML = c;   // Result will be "Fayaz Jamali"
+
+
+//  let x, y, z;
+//  x = 4;
+//  y = 9;
+//  z = x + y;
+
+// function count() {
+//     document.getElementById("demo").innerHTML = z;  //RESULT WOULD BE 13
+// }
+
+// function show() {
+//     document.getElementById("demo1").innerHTML = "Hello World!";
+//     document.getElementById("demo2").innerHTML = "How are you doing?";
+// }
+
+
+// JavaScript SYNTAX Section  ------------------------------------ SYNTAX
+
+var x;
+let y;
+
+x = 5;
+y = 4;
+let z = x + y;

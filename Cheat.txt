@@ -1,0 +1,29 @@
+photon man: Spawn a Photon Man unit (Skirmish)
+inna jiffy: Instantly build, research, and produce units (Skirmish
+
+
+full meal deal: 		Grant yourself food resources (Skirmish and Campaign)
+i have an app idea:		 Grant yourself gold resources (Skirmish and Campaign)
+take it for granite: 		Grant yourself stone resources (Skirmish and Campaign)
+knock on wood:		 Grant yourself wood resources (Skirmish and Campaign)
+smorgasbord: 			Grant yourself 100,000 of every resource (Skirmish and Campaign)
+
+
+
+i give up:		 Instantly lose the game (Skirmish and Campaign)
+it was known: Remove Fog of War (Skirmish)
+it is known: Reveal/hide Map (Skirmish)
+another round: Slow down simulation in a campaign mission (Campaign)
+another cup: Enable Turbo Mode in a campaign mission (Campaign)
+age me up scotty: Advance into the next age (Skirmish)
+make it quick: Kill selected units and buildings (Skirmish)
+anti-poke: Make all units and buildings invulnerable (Skirmish)
+you monster: Kill all Gaia units such as animals (Skirmish)
+king size beds: Enables maximum Population Capacity (Skirmish and Campaign)
+at the core: Spawn one of each core unit (Skirmish and Campaign)
+big bad sheep: Turn sheep into wolves (Skirmish and Campaign)
+out with the new: Replace the attack notification alarm with the Age of Empires 2 alarm (Skirmish and Campaign)
+one of us: Convert selected units (Skirmish)
+this is fine: Set selected buildings on fire (Skirmish)
+zeleport: Teleport your selected units to your cursor (Skirmish)
+Taunts in Age of Empires 4
