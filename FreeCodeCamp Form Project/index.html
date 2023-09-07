@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Survey Form</h1>
+      <p id="description"></p>
+
+      <form id="survey-form">
+        <fieldset>
+          <label for="" id="name-label"
+            >Name:<input id="name" type="text" placeholder="Your Name"
+          /></label>
+          <label for="" id="email-label"
+            >Email:<input
+              id="email"
+              type="email"
+              placeholder="You Email Address"
+          /></label>
+          <label for="" id="number-label"
+            >Number:<input
+              id="number"
+              type="number"
+              min="10"
+              max="11"
+              placeholder="Mobile Number"
+          /></label>
+        </fieldset>
+        <fieldset>
+          How did you hear about us?
+          <label for="" id="select">
+            <select name="" id="dropdown">
+              <option value="">Youtube</option>
+              \
+              <option value="">Google</option>
+              <option value="">Friend</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset ="">
+          <label for=""
+            >Indivial User<input type="radio" name="radio" id="" value="ind"
+          /></label>
+          <label for=""
+            >Persoanl User<input type="radio" name="radio" id="" value="per"
+          /></label>
+
+          <label for=""
+            >Bold:
+            <input type="checkbox" name="" id="" value="bold" />
+          </label>
+          <label for=""
+            >Talkative:
+            <input type="checkbox" name="" id="" value="talkative" />
+          </label>
+          <label for=""
+            >Nice:
+            <input type="checkbox" name="" id="" value="nice" />
+          </label>
+        </fieldset>
+        <label for=""
+          >Message:
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </label>
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
