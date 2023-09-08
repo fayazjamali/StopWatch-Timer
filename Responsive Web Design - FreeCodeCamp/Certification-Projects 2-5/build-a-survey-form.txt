@@ -1,0 +1,67 @@
+** start of undefined **
+
+<h1 id="title">Survey Form</h1>
+
+<p id="description">Fill The form below</p>
+<form id="survey-form">
+        <fieldset>
+  
+<label for="name" id="name-label">Name:
+  <input id="name" type="text" placeholder="Your Name" required/>
+</label>
+
+<label for="email" id="email-label">Email:
+  <input id="email" type="email" placeholder="Your Email Address" required/>
+</label>
+
+<label for="number" id="number-label">Number:
+  <input id="number" type="number" min="10" max="11" placeholder="Mobile Number"/>
+</label>
+        </fieldset>
+        <fieldset>
+          How did you hear about us?
+          <label for="" id="select">
+            <select name="" id="dropdown">
+              <option value="">Youtube</option>
+              \
+              <option value="">Google</option>
+              <option value="">Friend</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset ="">
+          <label for=""
+            >Indivial User<input type="radio" name="radio" id="" value="ind"
+          /></label>
+          <label for=""
+            >Persoanl User<input type="radio" name="radio" id="" value="per"
+          /></label>
+
+          <label for=""
+            >Bold:
+            <input type="checkbox" name="" id="" value="bold" />
+          </label>
+          <label for=""
+            >Talkative:
+            <input type="checkbox" name="" id="" value="talkative" />
+          </label>
+          <label for=""
+            >Nice:
+            <input type="checkbox" name="" id="" value="nice" />
+          </label>
+        </fieldset>
+        <label for=""
+          >Message:
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </label>
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+

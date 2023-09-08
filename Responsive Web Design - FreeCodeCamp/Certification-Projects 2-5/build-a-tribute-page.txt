@@ -1,0 +1,33 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+
+<main id="main">
+<h1 id="title">Dr.Norman Borlaug</h1>
+<div id="img-div">
+  <img id="image" src="#">
+  <div id="img-caption">This is a image</div>
+</div>
+<p id="tribute-info">"In loving memory of Norman, a kind soul who touched our lives and hearts with his warmth and wisdom. Rest in peace, dear friend."</p>
+<a href="#" id="tribute-link" target="_blank">
+
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  display: block;
+}
+
+** end of undefined **
+
